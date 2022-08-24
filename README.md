@@ -3,3 +3,7 @@ Create an application named Spam Detector using machine learning in which on ent
 Language stack:
 1)Python
 2)Kivy
+
+
+![Screenshot (157)](https://user-images.githubusercontent.com/95016288/186455531-ecce65b5-5785-45f1-ab3c-ff183e2be9b8.png)
+![Outpt](https://user-images.githubusercontent.com/95016288/186455913-d49274e3-cacb-428e-bad0-76d43c13cab1.png)
