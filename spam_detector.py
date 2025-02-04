@@ -13,6 +13,8 @@ from kivy.uix.label import Label
 from kivy.uix.textinput import TextInput
 from kivy.uix.button import Button
 from kivy.lang import Builder
+import imaplib
+import email
 
 def detect(string):
     p=pd.read_csv("spam_ham_dataset.csv")
@@ -30,8 +32,7 @@ def detect(string):
     i1=q.predict(o1)
     #print(accuracy_score(i,y_test))
     return i1
-import imaplib
-import email
+
 def extract(mail,password,source):
     l2=[]
     username=mail
