@@ -6,6 +6,14 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score,precision_score
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.svm import SVC
+from kivy.app import App
+import matplotlib.pyplot as plt
+from kivy.uix.gridlayout import GridLayout
+from kivy.uix.label import Label
+from kivy.uix.textinput import TextInput
+from kivy.uix.button import Button
+from kivy.lang import Builder
+
 def detect(string):
     p=pd.read_csv("spam_ham_dataset.csv")
     label=p['label']
@@ -56,13 +64,7 @@ def extract(mail,password,source):
     y=np.array(l3)
     plt.pie(y,labels=label)
     plt.show()
-from kivy.app import App
-import matplotlib.pyplot as plt
-from kivy.uix.gridlayout import GridLayout
-from kivy.uix.label import Label
-from kivy.uix.textinput import TextInput
-from kivy.uix.button import Button
-from kivy.lang import Builder
+
 class LoginScreen(GridLayout):
 
     def __init__(self, **kwargs):
