@@ -12,7 +12,7 @@ This application uses a Support Vector Classifier (SVC) to classify emails based
 ## Tech Stack
 
 - **Programming Language**: Python
-- **Framework**: Kivy (for mobile application development)
+- **Framework**: Kivy
 - **Libraries**:
   - **pandas**: Data manipulation and analysis.
   - **numpy**: Handling arrays and matrices.
