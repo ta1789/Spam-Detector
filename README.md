@@ -8,7 +8,6 @@ This application uses a Support Vector Classifier (SVC) to classify emails based
 
 - **Email Analysis**: Scan emails from a specific source email ID to classify them as spam or ham.
 - **Spam/Ham Count**: Display the number of spam and ham emails from the source.
-- **Mobile Application**: The application is built using Kivy, allowing it to be deployed on mobile devices.
 
 ## Tech Stack
 
