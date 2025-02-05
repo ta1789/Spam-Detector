@@ -23,12 +23,6 @@ This application uses a Support Vector Classifier (SVC) to classify emails based
 ### Prerequisites
 Before running the app, ensure you have Python 3.x installed on your machine. You will also need to install the necessary libraries.
 
-### Steps to Set Up the Environment
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/spam-detector.git
-
 
 ![Screenshot (157)](https://user-images.githubusercontent.com/95016288/186455531-ecce65b5-5785-45f1-ab3c-ff183e2be9b8.png)
 ![Outpt](https://user-images.githubusercontent.com/95016288/186455913-d49274e3-cacb-428e-bad0-76d43c13cab1.png)
